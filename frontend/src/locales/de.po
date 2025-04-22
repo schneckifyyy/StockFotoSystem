@@ -2025,7 +2025,7 @@ msgstr "Hinweis: Momentan können nur WebDAV-Server, wie Nextcloud oder PhotoPri
 
 #: src/component/photo/edit/details.vue:603
 msgid "Notes"
-msgstr "Notizen"
+msgstr "Nutzinformationen"
 
 #: src/page/library/logs.vue:23
 msgid "Nothing to see here yet."

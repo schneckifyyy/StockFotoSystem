@@ -648,6 +648,47 @@ let themes = {
       "hover-opacity": 0.06,
     },
   },
+  htlrennweg: {
+    title: "HTL Rennweg",
+    name: "htlrennweg",
+    dark: false,
+    colors: {
+      "background": "#ffffff",           // Weißer Hintergrund
+      "surface": "#f5f5f5",              // Sehr helles Grau
+      "surface-variant": "#d32f2f",      // HTL-Rot
+      "on-surface-variant": "#212121",   // Dunkler Text auf hellem Untergrund
+      "card": "#eeeeee",                 // Karten-Hintergrund leicht grau
+      "selected": "#d32f2f",             // Ausgewähltes Element in Rot
+      "table": "#f0f0f0",                // Tabellenhintergrund
+      "button": "#c62828",               // Button in kräftigem Rot
+      "primary": "#d32f2f",              // Hauptfarbe: HTL-Rot
+      "highlight": "#ef5350",            // Etwas helleres Rot für Highlights
+      "secondary": "#424242",            // Dunkelgrau für Kontraste
+      "secondary-light": "#616161",      // Etwas hellerer Grauton
+      "accent": "#1976d2",               // Blau als frischer Akzent
+      "error": "#e53935",                // Fehlerfarbe in Rot
+      "info": "#0288d1",                 // Info-Farbe in Blau
+      "success": "#2e7d32",              // Grün für Erfolg
+      "warning": "#fbc02d",              // Gelb für Warnung
+      "remove": "#c62828",               // Entfernen = dunkleres Rot
+      "restore": "#64b5f6",              // Wiederherstellen = Hellblau
+      "album": "#d32f2f",                // Alben = Rot wie das Logo
+      "download": "#00bfa5",             // Download = Türkis
+      "private": "#7b1fa2",              // Privat = Violett
+      "edit": "#0d47a1",                 // Bearbeiten = Dunkelblau
+      "share": "#5e35b1",                // Teilen = Lila
+      "love": "#e91e63",                 // Liebe = Pink
+      "terminal": "#212121",             // Terminal = fast schwarz
+      "navigation": "#d32f2f",           // Navigation = HTL-Rot
+      "navigation-home": "#b71c1c",      // Startseite = noch dunkleres Rot
+    },
+    variables: {
+      "border-color": "#d32f2f",
+      "border-opacity": 0.35,
+      "disabled-opacity": 0.5,
+      "hover-opacity": 0.07,
+    },
+  },
 
   /* Special theme used on the login page */
   login: {
@@ -796,6 +837,11 @@ let options = [
   {
     text: "Yellowstone",
     value: "yellowstone",
+    disabled: false,
+  },
+  {
+    text: "HTL Rennweg",
+    value: "htlrennweg",
     disabled: false,
   },
 ];
