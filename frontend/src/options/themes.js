@@ -658,7 +658,7 @@ let themes = {
       "surface-variant": "#d32f2f",      // HTL-Rot
       "on-surface-variant": "#212121",   // Dunkler Text auf hellem Untergrund
       "card": "#eeeeee",                 // Karten-Hintergrund leicht grau
-      "selected": "#d32f2f",             // Ausgewähltes Element in Rot
+      "selected": "#f0f0f0",             // Ausgewähltes Element in Rot
       "table": "#f0f0f0",                // Tabellenhintergrund
       "button": "#c62828",               // Button in kräftigem Rot
       "primary": "#d32f2f",              // Hauptfarbe: HTL-Rot
@@ -679,8 +679,8 @@ let themes = {
       "share": "#5e35b1",                // Teilen = Lila
       "love": "#e91e63",                 // Liebe = Pink
       "terminal": "#212121",             // Terminal = fast schwarz
-      "navigation": "#d32f2f",           // Navigation = HTL-Rot
-      "navigation-home": "#b71c1c",      // Startseite = noch dunkleres Rot
+      "navigation": "#9a1c1c",        // Etwas gedeckteres Dunkelrot
+      "navigation-home": "#6e1010"    // Sehr dunkles Rotbraun, fast schwarzrot
     },
     variables: {
       "border-color": "#d32f2f",
